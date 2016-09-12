@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf760fe3-a4d8-4829-9ce1-9cebeca622a1" name="Default" comment="" />
+    <ignored path="opencart.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="opencart" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.24447949">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="category.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/module/category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="62" column="58" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="1558">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="content.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/common/content.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="42" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1045">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="latest.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/module/latest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="24" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1634">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="358" column="39" selection-start="11646" selection-end="11646" vertical-scroll-proportion="2.34375" vertical-offset="6652" max-vertical-offset="12844">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vqmod_opencart.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vqmod/xml/vqmod_opencart.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="104" selection-start="467" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="456">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="379" column="92" selection-start="20686" selection-end="20686" vertical-scroll-proportion="0.0" vertical-offset="7201" max-vertical-offset="9823">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="featured.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/module/featured.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1691">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="slideshow.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/module/slideshow.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="21" selection-start="803" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="760">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="not_found.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/error/not_found.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="12" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="361">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="87" selection-start="1359" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="684">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1045">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="420" column="53" selection-start="27778" selection-end="27778" vertical-scroll-proportion="0.5555556" vertical-offset="7740" max-vertical-offset="9044">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="review.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="551">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="115" column="45" selection-start="6251" selection-end="6264" vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="4275">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="slideshow.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/slideshow.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="18" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="570">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-system_library_config.php" />
+        <option value="$PROJECT_DIR$/system/library/config.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/system/library/log.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/index/language.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/language.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/error/no_find.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/heaher.php" />
+        <option value="$PROJECT_DIR$/catalog/language/zh-CN/error/not_found.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/error/not_found.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/error/not_found.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/index/test.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/maintenance.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/test.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/home.php" />
+        <option value="$PROJECT_DIR$/system/engine/front.php" />
+        <option value="$PROJECT_DIR$/catalog/language/zh-CN/index/index.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/footer.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/featured.php" />
+        <option value="$PROJECT_DIR$/catalog/model/catalog/product.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/index/index.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/category.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/category.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/slideshow.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/content.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/latest.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/latest.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/system/library/language.php" />
+        <option value="$PROJECT_DIR$/catalog/language/zh-CN/product/product.php" />
+        <option value="$PROJECT_DIR$/system/engine/action.php" />
+        <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_product_product.php" />
+        <option value="$PROJECT_DIR$/catalog/model/catalog/review.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqcache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencart-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesSmarty" value="false" />
+    <property name="last_opened_file_path" value="D:/wamp/www/Basic_Wechat" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf760fe3-a4d8-4829-9ce1-9cebeca622a1" name="Default" comment="" />
+      <created>1472111487011</created>
+      <updated>1472111487011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3001464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/system/library/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.432675" vertical-offset="798" max-vertical-offset="3420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-13.454044" vertical-offset="7319" max-vertical-offset="8056" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.17962003" vertical-offset="105" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="123" selection-end="123" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="317" selection-end="317" vertical-scroll-proportion="0.4265976" vertical-offset="0" max-vertical-offset="579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/zh-CN/error/not_found.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="46" selection-end="46" vertical-scroll-proportion="0.14559387" vertical-offset="0" max-vertical-offset="261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="20" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.7322515" vertical-offset="342" max-vertical-offset="2603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/maintenance.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="136" selection-end="136" vertical-scroll-proportion="0.36121672" vertical-offset="0" max-vertical-offset="263" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/maintenance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="86" selection-end="86" vertical-scroll-proportion="0.1444867" vertical-offset="0" max-vertical-offset="1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/engine/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="33" selection-start="661" selection-end="661" vertical-scroll-proportion="-3.2857144" vertical-offset="573" max-vertical-offset="1007" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/zh-CN/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="10" selection-end="15" vertical-scroll-proportion="0.04871795" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="72" selection-start="872" selection-end="872" vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.18581907" vertical-offset="0" max-vertical-offset="409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/zh-CN/common/maintenance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="16" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="59" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.35266823" vertical-offset="912" max-vertical-offset="1406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/design/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="58" selection-start="450" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/error/not_found.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="67" selection-start="352" selection-end="352" vertical-scroll-proportion="0.32708332" vertical-offset="14" max-vertical-offset="494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="803" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="42" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="69" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="532" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../opencart/catalog/view/theme/gd-free/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="10" selection-start="3879" selection-end="13539" vertical-scroll-proportion="0.6350975" vertical-offset="1349" max-vertical-offset="12863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="51" selection-start="677" selection-end="677" vertical-scroll-proportion="-9.5" vertical-offset="361" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/error/not_found.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="74" selection-end="74" vertical-scroll-proportion="0.09547739" vertical-offset="0" max-vertical-offset="398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="233" selection-end="233" vertical-scroll-proportion="0.38190955" vertical-offset="0" max-vertical-offset="398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/latest.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="76" selection-start="293" selection-end="293" vertical-scroll-proportion="0.18095239" vertical-offset="57" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/slideshow.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/engine/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="15" selection-start="21" selection-end="21" vertical-scroll-proportion="0.022364218" vertical-offset="12" max-vertical-offset="399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="21" selection-start="8072" selection-end="8072" vertical-scroll-proportion="0.0" vertical-offset="5015" max-vertical-offset="5377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="58" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="1558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/featured.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_product_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="615" column="78" selection-start="21020" selection-end="21020" vertical-scroll-proportion="0.60169494" vertical-offset="11472" max-vertical-offset="14459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/engine/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="65" selection-start="976" selection-end="976" vertical-scroll-proportion="0.47704083" vertical-offset="649" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/startup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11081794" vertical-offset="42" max-vertical-offset="2527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vqmod/xml/vqmod_opencart.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="104" selection-start="467" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/zh-CN/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.67874396" vertical-offset="574" max-vertical-offset="988" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/db/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="26" selection-start="1106" selection-end="1112" vertical-scroll-proportion="0.15286624" vertical-offset="764" max-vertical-offset="1235" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/db/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="36" selection-start="1511" selection-end="1553" vertical-scroll-proportion="2.4475982" vertical-offset="0" max-vertical-offset="1672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="8" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.54366815" vertical-offset="929" max-vertical-offset="1501" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/latest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="24" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="92" selection-start="20686" selection-end="20686" vertical-scroll-proportion="0.0" vertical-offset="7201" max-vertical-offset="9823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="39" selection-start="11646" selection-end="11646" vertical-scroll-proportion="2.34375" vertical-offset="6652" max-vertical-offset="12844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="87" selection-start="1359" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="45" selection-start="6251" selection-end="6264" vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="4275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="420" column="53" selection-start="27778" selection-end="27778" vertical-scroll-proportion="0.5555556" vertical-offset="7740" max-vertical-offset="9044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
