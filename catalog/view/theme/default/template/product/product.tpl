@@ -113,15 +113,15 @@
             <div id="review_list">
                 <div class="review_list">
                     <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
-                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分</div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
                     <div class="clear"></div>
-                    <div class="review_content">ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</div>
+                    <div class="review_content">你说很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好</div>
                 </div>
                 <div class="review_list">
                     <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
-                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分</div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
                     <div class="clear"></div>
-                    <div class="review_content">ccccccc</div>
+                    <div class="review_content">很好很好</div>
                 </div>
             </div>
         </div>
