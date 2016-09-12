@@ -107,33 +107,22 @@
             <?php echo $description;?>
         </div>
         <div class="goods_box" style="display: none">
-            <div class="review_header"><span>总评</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分
+            <div class="review_header"><span>总评</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分
                 <div class="right">共<?php echo $reviews;?>条评论</div>
             </div>
-            <div id="review_content">
-                <div class="review_content">
-                    <div class="name"><spa class="name left">杰克</spa><span class="name right">2016-9-11</span></div>
-                    <div class="review_single"><span>评</span><div class="grade-star g-star<?php echo $rating;?>"></div></div>
-                    <div>cc</div>
+            <div id="review_list">
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</div>
                 </div>
-                <div class="review_content">
-                    aaa
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">ccccccc</div>
                 </div>
-            </div>
-            <div class="evaluate">
-                <span>18762678928</span><span class="text_t">2015-10-19</span>
-                <p>速度快，服务周到</p>
-                <hr/>
-            </div>
-            <div class="evaluate">
-                <span>18762678928</span><span class="text_t">2015-10-19</span>
-                <p>速度快，服务周到速度快，服务周到速度快，服务周到速度快，服务周到速度快，服务周到</p>
-                <hr/>
-            </div>
-            <div class="evaluate">
-                <span>18762678928</span><span class="text_t">2015-10-19</span>
-                <p>速度快，服务周到</p>
-                <hr/>
             </div>
         </div>
     </div>
