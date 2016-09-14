@@ -101,21 +101,45 @@
     <div class="box_list">
         <ul class="box_nav">
             <li class="current"><a>商品详情</a></li>
-            <li><a>商品评论(<?php echo $reviews;?>)</a></li>
+            <li ><a>商品评论(<?php echo $reviews;?>)</a></li>
         </ul>
-        <div class="goods_box">
+        <div class="goods_box" >
             <?php echo $description;?>
         </div>
         <div class="goods_box" style="display: none">
             <div class="review_header"><span>总评</span><div class="grade-star g-star<?php echo $rating;?>"></div>&nbsp;<?php echo $rating;?>分
                 <div class="right">共<?php echo $reviews;?>条评论</div>
             </div>
-            <div id="review_list">
+            <div class="review_box">
                 <div class="review_list">
                     <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
                     <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
                     <div class="clear"></div>
                     <div class="review_content">你说很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好很好</div>
+                </div>
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">很好很好</div>
+                </div>
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">很好很好</div>
+                </div>
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">很好很好</div>
+                </div>
+                <div class="review_list">
+                    <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
+                    <div class="review_single"><span>评&nbsp;</span><div class="grade-star g-star<?php echo $rating;?>"></div><?php echo $rating;?>分</div>
+                    <div class="clear"></div>
+                    <div class="review_content">很好很好</div>
                 </div>
                 <div class="review_list">
                     <div class="review_name"><spa class="review_name left">杰克</spa><span class="review_name right">2016-9-11</span></div>
@@ -138,33 +162,50 @@
 
     </div>
 </div>
-<script>
-    $(document).ready(function(){
+<script type="text/javascript">
+    $(function(){
+        $('.box_list ul li').click(function(){
+            var index = $('.box_list ul li').index(this);
+            $(this).addClass('current').siblings('li').removeClass('current');
+            $('.box_list .goods_box:eq('+index+')').show().siblings('.goods_box').hide();
+            if(index == 1){
+                $('.review_box').dropload({
+                    scrollArea : window,
+                    loadDownFn : function(me){
+                        $.ajax({
+                            type: 'GET',
+                            url: 'index.php?route=product/product/review&product_id=<?php echo $product_id; ?>',
+                            dataType: 'html',
+                            beforeSend: function () {
+
+                            },
+                            success: function (data) {
+                                if (data != '') {
+                                    $(".review_box").append(data);
+                                    //me.noData(false);
+                                    //me.unlock();
+                                } else {
+                                    // 锁定
+                                    //me.lock();
+                                    // 无数据
+                                    //me.noData();
+                                }
+                                me.resetload();
+                            }
+                        });
+                    }
+                });
+            }
+        });
         var mySwiper = new Swiper('#banner_box',{
             autoplay:5000,
             visibilityFullFit : true,
             loop:true,
             pagination : '.pagination'
         });
-    });
-</script>
-<!--商品数量加减-->
-<script type="text/javascript">
-    $(function(){
-        $('.goodsNum').spinner({value:1});
-    });
-</script>
-<script type="text/javascript">
-    jQuery(function($){
-        $('.box_list ul li').click(function(){
-            var index = $('.box_list ul li').index(this);
-            $(this).addClass('current').siblings('li').removeClass('current');
-            $('.box_list .goods_box:eq('+index+')').show().siblings('.goods_box').hide();
-        })
-    })
-</script>
-<script type="text/javascript">
-    $(function(){
+        <!--商品数量加减-->
+        $(".goodsNum").spinner({value:1});
+
         $("#product select[name*='option']").change(function(){
             refresh_price();
         });
@@ -174,36 +215,35 @@
         $("#quantity").on("blur",function(){
             refresh_price();
         });
-    });
-    $("#product input[type='radio'], #product input[type='checkbox']").on("click",function(){
-        refresh_price();
-    });
-
-    function refresh_price() {
-        $.ajax({
-            url: 'index.php?route=product/product/price',
-            type: 'post',
-            data: $('#quantity,#product input[type=\'hidden\'],#product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select'),
-            dataType: 'json',
-            beforeSend: function() {
-            },
-            complete: function() {
-            },
-            success: function(json) {
-                if (json['special'] !== undefined) {
-                    $('.sp_style3').html(json['special']);
-                } else {
-                    $('.sp_style2').html(json['price']);
-                    $('.sp_style3').html(json['special']);
-                }
-
-                //if (json['tax'] !== undefined) {
-                    //$('.product-price-wrapper .price-tax').html(json['tax']);
-                //}
-            },
-            error: function(xhr, ajaxOptions, thrownError) {
-            }
+        $("#product input[type='radio'], #product input[type='checkbox']").on("click",function(){
+            refresh_price();
         });
-    }
+        function refresh_price() {
+            $.ajax({
+                url: 'index.php?route=product/product/price',
+                type: 'post',
+                data: $('#quantity,#product input[type=\'hidden\'],#product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select'),
+                dataType: 'json',
+                beforeSend: function() {
+                },
+                complete: function() {
+                },
+                success: function(json) {
+                    if (json['special'] !== undefined) {
+                        $('.sp_style3').html(json['special']);
+                    } else {
+                        $('.sp_style2').html(json['price']);
+                        $('.sp_style3').html(json['special']);
+                    }
+
+                    //if (json['tax'] !== undefined) {
+                    //$('.product-price-wrapper .price-tax').html(json['tax']);
+                    //}
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                }
+            });
+        }
+    });
 </script>
 <?php echo $footer; ?>

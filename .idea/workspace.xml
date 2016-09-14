@@ -22,7 +22,7 @@
     <favorites_list name="opencart" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.24447949">
+    <splitter split-orientation="vertical" split-proportion="0.26498422">
       <split-first>
         <leaf>
           <file leaf-file-name="category.php" pinned="false" current="false" current-in-tab="false">
@@ -55,7 +55,7 @@
           <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="358" column="39" selection-start="11646" selection-end="11646" vertical-scroll-proportion="0.0" vertical-offset="6802" max-vertical-offset="12844">
+                <state line="368" column="126" selection-start="12156" selection-end="12156" vertical-scroll-proportion="2.4675324" vertical-offset="6802" max-vertical-offset="12844">
                   <folding />
                 </state>
               </provider>
@@ -113,7 +113,7 @@
           <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="87" selection-start="1359" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="684">
+                <state line="24" column="95" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-8.785714" vertical-offset="210" max-vertical-offset="741">
                   <folding />
                 </state>
               </provider>
@@ -122,7 +122,7 @@
           <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+                <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
                   <folding />
                 </state>
               </provider>
@@ -131,16 +131,16 @@
           <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="-0.0" vertical-offset="247" max-vertical-offset="1045">
+                <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="1045">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="427" column="100" selection-start="28202" selection-end="28217" vertical-scroll-proportion="0.7407407" vertical-offset="7793" max-vertical-offset="9101">
+                <state line="421" column="55" selection-start="27813" selection-end="27813" vertical-scroll-proportion="-5.24" vertical-offset="7868" max-vertical-offset="9120">
                   <folding />
                 </state>
               </provider>
@@ -149,17 +149,19 @@
           <file leaf-file-name="review.tpl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.0" vertical-offset="38" max-vertical-offset="551">
+                <state line="5" column="68" selection-start="502" selection-end="502" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="285">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="product.tpl" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="58" selection-start="7012" selection-end="7012" vertical-scroll-proportion="-8.821428" vertical-offset="2090" max-vertical-offset="4066">
-                  <folding />
+                <state line="192" column="47" selection-start="10635" selection-end="10635" vertical-scroll-proportion="0.8056266" vertical-offset="3333" max-vertical-offset="4826">
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -215,7 +217,6 @@
         <option value="$PROJECT_DIR$/catalog/controller/module/latest.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/latest.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/system/library/language.php" />
         <option value="$PROJECT_DIR$/catalog/language/zh-CN/product/product.php" />
@@ -223,8 +224,10 @@
         <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_product_product.php" />
         <option value="$PROJECT_DIR$/catalog/model/catalog/review.php" />
         <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
       </list>
     </option>
   </component>
@@ -593,30 +596,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="39" selection-start="11646" selection-end="11646" vertical-scroll-proportion="0.0" vertical-offset="6802" max-vertical-offset="12844">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+        <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="87" selection-start="1359" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="684">
+        <state line="368" column="126" selection-start="12156" selection-end="12156" vertical-scroll-proportion="2.4675324" vertical-offset="6802" max-vertical-offset="12844">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/index/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1045">
+        <state line="13" column="34" selection-start="414" selection-end="414" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="1045">
           <folding />
         </state>
       </provider>
@@ -630,22 +626,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/review.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="551">
+        <state line="5" column="68" selection-start="502" selection-end="502" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="58" selection-start="7012" selection-end="7012" vertical-scroll-proportion="-8.821428" vertical-offset="2090" max-vertical-offset="4066">
+        <state line="24" column="95" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-8.785714" vertical-offset="210" max-vertical-offset="741">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/stylesheet/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="100" selection-start="28202" selection-end="28217" vertical-scroll-proportion="0.7407407" vertical-offset="7793" max-vertical-offset="9101">
+        <state line="421" column="55" selection-start="27813" selection-end="27813" vertical-scroll-proportion="-5.24" vertical-offset="7868" max-vertical-offset="9120">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="47" selection-start="10635" selection-end="10635" vertical-scroll-proportion="0.8056266" vertical-offset="3333" max-vertical-offset="4826">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
