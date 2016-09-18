@@ -22,10 +22,10 @@
 <link href="catalog/view/theme/<?php echo $configTemplate;?>/stylesheet/swiper3.07.min.css" rel="stylesheet">
 <link href="catalog/view/theme/<?php echo $configTemplate;?>/stylesheet/dropload.css" rel="stylesheet">
 <script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/jquery.js" type="text/javascript"></script>
-<script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/dropload.js"></script>
+<script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/iscroll.js"></script>
 <script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/swiper.min.js"></script>
 <script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/jquery.Spinner.js"></script>
-
+<script src="catalog/view/theme/<?php echo $configTemplate;?>/javascript/layer/layer.js"></script>
 <body>
 <header>
     <h1 class="logoIcon" style="font-size:.85rem;">#</h1>

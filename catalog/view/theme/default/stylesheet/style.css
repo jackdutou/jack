@@ -401,7 +401,7 @@ nav .userIcon:before{content:"U";}
 .pay_type span .pay01 { background-position: 0px 0px; }
 .pay_type span .pay02 { background-position: -24px 0px; }
 .pay_type span .pay03 { background-position: -49px 0px; }
-.box_list { padding-bottom: 8% }
+.box_list { padding-bottom: 8%; height: 100%;}
 .box_list .box_nav { width: 100%; display: block; background-color: #FFFFFF;border-bottom: 1px solid #cccccc; overflow: hidden }
 .box_list .box_nav li { width: 50%; float: left; text-align: center; padding: 10px 0 }
 .box_list .box_nav li a { color: #333333; display: block; width: 100%; padding: 0; border-right: #cccccc 1px solid }
@@ -409,7 +409,7 @@ nav .userIcon:before{content:"U";}
 .box_list .box_nav .current a { color: #FFFFFF; background-color: #edc700; border-right: none }
 .goods_box { }
 .goods_box > img {width:100%;height:100%;}
-.review_header { width: 100%;height: 30px;background: #FFF; margin: 1px 0 5px 0; border-bottom: 1px solid #F3F3F3;line-height:30px; overflow: hidden;position:relative;z-index: 100;top: 0; }
+.review_header { width: 100%;height: 30px;background: #FFF; margin: 1px 0 5px 0; border-bottom: 1px solid #F3F3F3;line-height:30px; overflow: hidden;}
 .review_header span {height100%;text-align: left;float: left;padding:0 3px 0 10px;}
 .review_header .grade-star,.review_list .review_single .grade-star {width: 85px;height:15px;position:relative;margin-top:6px;float: left;background: url('../images/review_star.png') no-repeat ;}
 .review_header .grade-star.g-star0,.review_list .review_single .grade-star.g-star0{background-position:-84px 0}
@@ -419,7 +419,7 @@ nav .userIcon:before{content:"U";}
 .review_header .grade-star.g-star4,.review_list .review_single .grade-star.g-star4{background-position:-17px 0}
 .review_header .grade-star.g-star5,.review_list .review_single .grade-star.g-star5{background-position:0 0}
 .review_header .right {width: 40%;height:100%;text-align: right;float: right;padding-right:10px;}
-review_box {height: 200px;width: 100%;overflow-y:auto;}
+.review_box {height: 200px;width: 100%;overflow-y:auto;}
 .review_list {min-height: 70px;background: #FFF;border-top: 1px solid #F0F0F0;padding:10px;}
 .review_list .review_name {height:20px;line-height:20px;}
 .review_list .review_name.left {float:left;color: #888888;}
@@ -436,10 +436,11 @@ review_box {height: 200px;width: 100%;overflow-y:auto;}
 .ask_list textarea { border: #cccccc 1px solid; box-shadow: 3px 3px 3px #e5e2e2; width: 90%; border-radius: 5px; min-height: 80px; padding: 8px; font-size: 14px; }
 .bottomdiv { background-color: #fff; bottom: 0; box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; z-index: 97; }
 .bottomdiv .inner { display: block; padding: 5px 10px; position: relative; }
-.btn_sure, .btn_buy_detail { border-radius: 2px; display: inline-block; font-family: "微软雅黑"; font-size: 16px; font-weight: 400; height: 30px; line-height: 30px; margin-left: 1em; text-align: center; }
-.btn_sure { background-color: #67cdf8; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); color: #fff; cursor: pointer; margin-left: 1em; width: 100px; }
-.btn_buy_detail { background-color: #ea5529; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); color: #fff; cursor: pointer; width: 100px; }
+.btn_sure, .btn_buy_detail { border-radius: 2px; display: inline-block; font-family: "微软雅黑"; font-size: 16px; font-weight: 400; height: 30px; line-height: 30px; margin-left: 13px; text-align: center; }
+.btn_sure { background-color: #ea5529; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); color: #fff; cursor: pointer; margin-left: 1px; width: 85px; }
+.btn_buy_detail { background-color: #67cdf8; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); color: #fff; cursor: pointer; width: 95px; }
 .btn_buy_detail a, .btn_sure a { color: #FFFFFF }
+.bottomPrice {line-height: 30px;color: #FF0000;font-weight: bold;height: 30px;text-align: right;}
 
 /*商品选项*/
 .spec_select { padding: 0px 2%; width: 96% }
@@ -448,7 +449,7 @@ review_box {height: 200px;width: 100%;overflow-y:auto;}
 .spec_select ul > span { font-size:15px;padding-right: 10px; }
 .spec_select ul li label input[type='radio'],.spec_select ul li label input[type='checkbox'] {display: none;}
 .spec_select ul li label input[type='radio']+span,.spec_select ul li label input[type='checkbox']+span{ color: #666666; display: inline-block; padding: 0 4px; font-style: normal; border: 1px solid #bbbbbb; line-height: 30px; height: 30px; margin: 3px 0px 3px 3px;}
-.spec_select ul li label input[type='radio']:checked+span,.spec_select ul li label input[type='checkbox']:checked+span{line-height: 30px; border: 1px solid #FF0000; height: 30px; position: relative; padding: 0 4px;}
+.spec_select ul li label input[type='radio']:checked+span,.spec_select ul li label input[type='checkbox']:checked+span{line-height: 30px; border: 2px solid #be0106; height: 30px; position: relative; padding: 0 4px;}
 .spec_select ul li label input[type='radio']:checked+span:after,.spec_select ul li label input[type='checkbox']:checked+span:after {
     content: " ";
     background: url("../images/checked.png") no-repeat;

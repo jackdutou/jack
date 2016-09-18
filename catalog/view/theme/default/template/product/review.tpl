@@ -6,4 +6,3 @@
     <div class="review_content"><?php echo $review['text']; ?></div>
 </div>
 <?php } ?>
-
